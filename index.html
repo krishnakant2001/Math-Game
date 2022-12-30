@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Math Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="displayName"></div>
+      <h3>Fill in the blank with correct number or operator</h3>
+      <div id="question"></div>
+      <button id="submit-btn">Check your Answer</button>
+      <p id="error-msg">Some demo error message</p>
+    </div>
+
+    <div class="control-containers" id="control-container">
+      <div id="input-field">
+        Enter your name
+        <input type="text" id="yourName" required />
+      </div>
+      <p id="result"></p>
+      <button id="start-btn">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="dynamic.js"></script>
+  </body>
+</html>
